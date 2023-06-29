@@ -1,0 +1,18 @@
+#include<stdio.h>
+int forwardnumber();
+int main()
+{
+	forwardnumber();
+}
+int forwardnumber()
+	{
+		for(int i=0; i<=5; i++)
+		{
+			for(int j=0; j<=i; j++){
+			
+			printf("%d",i);
+		}
+		printf("\n");
+	}
+	
+}
